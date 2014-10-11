@@ -14,7 +14,7 @@ Create a new `MultiSplitPane` rooted in empty DOM element `el`. Supported option
 
 #### `split.layout()`
 
-Schedule a layout operation to occur in the future.
+Schedule a layout operation. Use the `scheduleRender` constructor operation to control when layout actually occurs.
 
 #### `split.layoutImmediately()`
 
