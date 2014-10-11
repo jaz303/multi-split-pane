@@ -51,7 +51,7 @@ MultiSplitPane.prototype.layout = function() {
     if (this._layoutScheduled) return;
     this._layoutScheduled = true;
     var self = this;
-    this._scheduleLayout(function() { self.layoutImmediately(); });
+    this._scheduleRender(function() { self.layoutImmediately(); });
 }
 
 MultiSplitPane.prototype.layoutImmediately = function() {
