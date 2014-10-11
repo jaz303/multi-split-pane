@@ -1,0 +1,25 @@
+{
+  "name": "multi-split-pane",
+  "version": "1.0.0",
+  "description": "DOM split pane supporting multiple splits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/multi-split-pane.git"
+  },
+  "keywords": [
+    "split",
+    "pane",
+    "widget",
+    "container"
+  ],
+  "author": "Jason Frame <jason@onehackoranother.com> (http://jasonframe.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaz303/multi-split-pane/issues"
+  },
+  "homepage": "https://github.com/jaz303/multi-split-pane"
+}
