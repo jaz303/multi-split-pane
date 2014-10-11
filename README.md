@@ -4,7 +4,7 @@
 
 #### `var split = new MultiSplitPane(el, opts)`
 
-Create a new `MultiSplitPane` rooted in `el`. Supported options:
+Create a new `MultiSplitPane` rooted in empty DOM element `el`. Supported options:
 
   - `orientation`: either `MultiSplitPane.VERTICAL` or `MultiSplitPane.HORIZONTAL`
   - `scheduleRender`: called the split pane needs to redraw its internal structure. Callback receives a single function which it can either invoke immediately or schedule to call with e.g. `requestAnimationFrame()`.
