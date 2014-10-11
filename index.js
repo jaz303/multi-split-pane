@@ -122,8 +122,8 @@ MultiSplitPane.prototype.layoutImmediately = function() {
     }
 
     if (this._panesResized) {
-        this._onPaneResize(this);
         this._panesResized = false;
+        this._onPaneResize(this);
     }
 
 }
