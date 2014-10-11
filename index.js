@@ -131,9 +131,12 @@ MultiSplitPane.prototype.layoutImmediately = function() {
 MultiSplitPane.prototype.setOrientation = function(orientation) {
 
     this._orientation = orientation;
-    
-    du.removeClass(this._el, 'horizontal vertical');
-    du.addClass(this._el, this._orientation === HORIZONTAL ? 'horizontal' : 'vertical');
+
+    var self = this;
+    self._scheduleRender(function() {
+        du.removeClass(self._el, 'horizontal vertical');
+        du.addClass(self._el, self._orientation === HORIZONTAL ? 'horizontal' : 'vertical');
+    });
     
     this.layout();
 
